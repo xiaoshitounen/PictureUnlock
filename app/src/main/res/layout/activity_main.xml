@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/root_layout">
+
+    <!--添加背景图片-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_bg"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        />
+
+    <!--重置密码-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="重置密码"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:gravity="left"
+        android:background="@null"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/reset"
+        />
+
+    <!--操作的背景图片-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/op_bg"
+        android:layout_centerInParent="true"
+        android:id="@+id/point_bg"
+        />
+
+
+
+</RelativeLayout>
