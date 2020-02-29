@@ -19,7 +19,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="重置密码"
+        android:text="忘记密码?"
         android:textColor="#ffffff"
         android:textSize="20sp"
         android:gravity="left"
