@@ -38,6 +38,4 @@
         android:id="@+id/point_bg"
         />
 
-
-
 </RelativeLayout>

@@ -536,7 +536,7 @@ public class MainActivity extends AppCompatActivity {
                 for (XLImageView lineView : lightLinesView) {
                     lineView.changeImage(lineView.getWrongImageResource());
                 }
-
+                
                 //2.延迟一会
                 //SystemClock.sleep(500);
                 new Handler().postDelayed(new Runnable() {
@@ -591,6 +591,7 @@ public class MainActivity extends AppCompatActivity {
                 //重置密码
                 password = null;
                 edit.putString(PASSWORD_KEY, null);
+                edit.apply();
                 textView.setText("请重新设置密码");
             }
         });
