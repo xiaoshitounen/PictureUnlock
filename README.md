@@ -7,5 +7,5 @@
 
 - **难度：新手。**
 
-- **博客发布处：[Android项目2：图案解锁](http://www.fanandjiu.com/article/d6ac3118.htmle)**
+- **博客发布处：[Android项目2：图案解锁](http://www.fanandjiu.com/article/d6ac3118.html)**
 
